@@ -9,7 +9,7 @@
             $username = $_POST['username'];
             $password = $_POST['password'];
 
-            $password = $Core->encryptPassword($Core);
+            $password = $Core->encryptPassword($password);
 
             $query = "SELECT * FROM utenti WHERE username='$username'";
             $risultatoQuery = $sql->query($query);
