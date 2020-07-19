@@ -1,3 +1,4 @@
+
 <?php
     include "header.php";
     $data = '';
@@ -48,7 +49,7 @@
 
         <title>Lista Libri</title>
         
-        <table id="myTable" class="table display table-bordered" width="99.9%" >
+        <table id="myTable" class="table table-striped table-dark" width="99.9%" >
             <thead>
             <tr class="header">
                 <th>Foto Libro</th>
