@@ -52,7 +52,7 @@
                     }
                     ?>
 
-                    <table id="myTable" class="table display table-bordered" width="99.9%">
+                    <table id="myTable" class="table table-condensed" width="99.9%">
                         <thead>
                         <tr>
                             <td>Foto Libro</td>
